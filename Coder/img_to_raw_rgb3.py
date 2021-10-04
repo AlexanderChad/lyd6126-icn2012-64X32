@@ -13,7 +13,7 @@ obj = img.load()
 
 raw_rgb3_uint8 = np.zeros((3, 256), dtype=('uint8'))
 
-adr = np.zeros(32, dtype=('uint8'))
+adr = np.zeros(16, dtype=('uint8'))
 adr = [8, 0, 9, 1, 10, 2, 11, 3, 12, 4, 13, 5, 14, 6, 15, 7]
 
 for yi in range(y):
